@@ -1,8 +1,8 @@
 {
-  "name": "my-awesome-app",
+  "name": "Design Responsivo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "engines": {
     "node": "18.12.1"
   },
