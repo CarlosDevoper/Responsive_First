@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de produtos feitos a mão, de maneira artesanal, como pulseiras,
+    tornozeleiras, colares e muito mais">
+    <meta name="keywords" content="pulseiras, tornozeleiras, colares, artesanal, macrame, miçangas">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Carlos Bonifacio">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fe5c4d7d12.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo-icon.png">
+    <title>OriganArtes</title>
+</head>
+<body>
+    <header class="cabecalho">
+        
+        <a href="index.html"><h1 class="logo">OriganArtes</h1></a>
+        <h1 class="titulo">OriganArtes</h1>
+        <button class="btn-menu"><i class="fa-solid fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa-regular fa-circle-xmark"></i></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="title">
+            <h2>Ouse Inovar!<br> Descubra Seu Estilo</h2>
+            <h3>Aqui temos as melhores opções de acessórios para complementar seu estilo do jeito
+                 que preferir</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn-cadastrar">  Cadastro <i class="fa-solid fa-circle-arrow-right fa-lg"></i></button>
+            <button class="btn-sobre">Sobre <i class="fa-regular fa-circle-question fa-lg"></i></button>
+        </div>
+    </div>
+    <main class="produtos">
+        <article class="produto">
+            <a href=""><img src="img/Colares.jpg" alt="Colares"></a>
+            <div class="inner">
+                <a href="">Colares</a>
+                <h4>Colares Estilizados</h4>
+                <p>Feitas a mão com uma qualidade incrivel, tamanho regulável(ou não) e podem ser personalidadas</p>
+            </div>
+        </article>
+        <article class="produto">
+            <a href=""><img src="img/Pulseiras.jpg" alt="Pulseiras"></a>
+            <div class="inner">
+                <a href="">Pulseiras</a>
+                <h4>Pulseiras de Miçangas</h4>
+                <p>Feitas a mão com uma qualidade incrivel, tamanho regulável e podem ser personalidadas</p>
+            </div>
+        </article>
+        <article class="produto">
+            <a href=""><img src="img/Coleções.jpg" alt="Coleções"></a>
+            <div class="inner">
+                <a href="">Coleções</a>
+                <h4>Temáticas ou Padronizadas</h4>
+                <p>Feitas a mão com uma qualidade incrivel, tamanho regulável e podem ser personalidadas</p>
+            </div>
+        </article>
+    </main>
+    <section class="newsletter">
+        <h2>Inscreva-se Agora!</h2>
+        <h3>Receba novidades, dicas e muito mais</h3>
+        <form action="" class="form">
+            <input type="email" placeholder="seuemail@gmail.com" required>
+            <button class="btn-form">Cadastrar</button>
+        </form>
+    </section>
+    <footer class="rodape">
+        <div class="social-icons">
+            <a href=""><i class="fa-brands fa-square-facebook fa-lg"></i></a>
+            <a href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter fa-lg"></i></a>
+            <a href=""><i class="fa-solid fa-envelope fa-lg"></i></a>
+        </div>
+        <p class="copy">Copyright © OriganArtes 2020. Todos os direitos reservados</p>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+
+    </script>
+</body> 
+</html>
